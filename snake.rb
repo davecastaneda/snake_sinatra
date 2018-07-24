@@ -6,5 +6,5 @@ require 'sinatra'
 # set :views, settings.root + "views"
 
 get '/' do
-  render :snake
+  send_file('index.html')
 end
